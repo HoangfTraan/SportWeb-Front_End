@@ -1,0 +1,52 @@
+.box50
+{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+}
+.owl-carousel .item {
+    display: flex; /* Sử dụng flexbox để hiển thị các phần tử trên cùng một hàng */
+    align-items: center; /* Căn chỉnh các phần tử theo chiều dọc để chúng nằm giữa hàng */
+  }
+  
+  .owl-carousel .category.icon {
+    flex: 0 0 auto; /* Không cho phần tử tự động mở rộng */
+    width: 25%; /* Đặt kích thước của mỗi phần tử là 25% để hiển thị 4 hình trên cùng một hàng */
+    padding: 0 10px; /* Điều chỉnh khoảng cách giữa các phần tử */
+  }
+  .owl-carousel .item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .owl-carousel .category.icon {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  .owl-carousel .category.icon img {
+    max-width: 100%; /* Đảm bảo rằng hình ảnh không bị căng ra hoặc co lại */
+    max-height: 100px; /* Điều chỉnh kích thước tối đa của hình ảnh */
+  }
+  .category.icon img {
+    width: 100px; /* Đặt kích thước mong muốn */
+    height: auto; /* Để giữ tỷ lệ khung ảnh */
+  }
+
+  .category.icon {
+    text-align: center; /* Căn giữa nội dung */
+}
+
+.category.icon img {
+    display: block; /* Để tránh lỗi dưới đây */
+    margin: 0 auto; /* Căn giữa hình ảnh theo chiều ngang */
+}
+
+.category.icon h5 {
+    text-align: center; /* Căn giữa nội dung */
+}
+ 
+  

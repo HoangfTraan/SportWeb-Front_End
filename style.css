@@ -1,0 +1,83 @@
+#buttonback {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+#c:hover {
+    background-color: rgba(255, 120, 23, 1);
+}
+
+.col-md-1 {
+	margin: 25px auto;
+	width: 300px;
+	height: 400px;
+    background-color: #272d40;
+	border-radius: 15px;
+	padding: 20px 10px;
+	color: white;
+	position: relative;
+}
+
+/* .col-md-1:hover{
+    background-color: #272d40;
+    transition-delay: 0.2s;
+} */
+
+
+
+.col-md-1 > button {
+    color:black;
+    background: rgb(54, 190, 77);
+    padding: 5px 10px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	margin-right: 7px;
+	font-weight: 600;
+	transition: 0.25s;
+}
+
+.col-md-1 button:hover {
+	transform: scale(0.9);
+}
+
+.col-md-1  >button {
+    margin-top: 100px;
+}
+
+.col-md-1 > button,h4 {
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+}
+
+
+
+.col-md-1:hover  button,
+.col-md-1:hover  h4 {
+    transition-delay: 0.2s;
+    visibility :visible;
+    opacity: 100;
+}
+
+.col-md-1:hover button {
+    margin-top: 0px ;
+}
+
+
+
+
+

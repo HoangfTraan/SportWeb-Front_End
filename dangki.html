@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/dangki.css">
+</head>
+
+<body>
+  <button onclick="topFunction()" id="buttonback" title="Lên đầu trang"><i class="fa-solid fa-circle-up"></i></button>
+  <script>
+
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("buttonback").style.display = "block";
+        } else {
+            document.getElementById("buttonback").style.display = "none";
+        }
+    }
+    
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+  <button onclick="topFunction()" id="buttonback" title="Lên đầu trang"><i class="fa-solid fa-circle-up"></i></button>
+  <script>
+
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("buttonback").style.display = "block";
+        } else {
+            document.getElementById("buttonback").style.display = "none";
+        }
+    }
+    
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+  <div class="bg-success">
+    <section class="header">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="index.html">
+            <img src="image/logo1.webp" class ="img-fluid" alt="logo"width="150" height="140" >
+          </a>
+        </div>
+        <div class="col-md-4 ">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nhập từ khóa tìm kiếm..." aria-label="Nhập từ khóa tìm kiếm..." aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col-3">
+                  <div class="fs-1 text-danger">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                </div>
+                <div class="col-9">
+                    Hỗ trợ <br>
+                  <strong class="text-danger">0987654321</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="col-3">
+                  <div class="fs-1 text-danger">
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+                <div class="col-9">
+                    Xin chào! <br>
+                  <div class="dk"> <a href="dangki.html" ><strong class="text-danger">Đăng ký</strong></a> ||<a href="dangnhap.html" ><strong class="text-danger">Đăng nhập</strong></a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 ">
+          <div class="row">
+            <div class="col">
+              <a href="button" class="position-relative">
+                <span class="fs-3"><i class="fa-solid fa-heart"></i></span>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  0
+                </span>
+              </a>
+            </div>
+            <div class="col">
+              <a href="button" class="position-relative">
+                <span class="fs-3"><i class="fa-solid fa-bag-shopping"></i></span>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  0
+                </span>
+              </a>
+            </div>
+            <div class="col">
+              <a href="button" class="position-relative">
+                <span class="fs-3"><i class="fa-solid fa-print"></i></span>
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  0
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+  <section class="menu bg-dark">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-9">
+                <nav class="navbar navbar-expand-lg bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand d-none" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white active" aria-current="page" href="index.html">Trang chủ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Giới thiệu</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Sản phẩm
+                                    </a>
+                                    <ul class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+                                        <li><a class="dropdown-item" href="#">Quần Sport</a></li>
+                                        <li><a class="dropdown-item" href="#">Áo Sport</a></li>
+                                        <li><a class="dropdown-item" href="#">Dụng cụ </a></li>
+                                        <li><a class="dropdown-item" href="#">Xe đạp</a></li>
+                                        <li><a class="dropdown-item" href="#">Balo-Túi</a></li>
+                                        <!-- Thêm các mục khác vào đây -->
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white " href="" >Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class= "nav-link text-white " href="">Tuyển dụng</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white " href="" >Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>a
+  </section> 
+  </div>
+<br>
+<div id="contend"> <br>
+<div class="divtk"><strong>TẠO TÀI KHOẢN WEBSITE </strong></div>
+<div class="divtk2">Bạn đã là thành viên ? <a href="dangnhap.html">Đăng nhập</a> ngay.</div>
+<br>
+<br>
+  <div id="contend1">
+  
+    Họ và tên :(*) <br>
+    <label for="txtHoTen"></label>
+    <input name="txtHoTen" type="text" id="txtHoTen" placeholder="Hãy nhập họ và tên" maxlength="100" />
+    <br>
+    Email:(*) <br>
+    <label for="txtEmail"></label>
+    <input type="text" name="txtEmail" id="txtEmail" placeholder="Hãy nhập Email" />
+    <br>
+    Ngày sinh :<br>
+    Ngày:
+    <label for="lstNgay"></label> 
+    <select name="lstNgay" id="lstNgay">
+      <option value=1>01
+      <option value=2>02
+      <option value=3>03
+      <option value=4>04
+      <option value=5>05
+      <option value=6>06
+      <option value=7>07
+      <option value=8>08
+      <option value=9>09
+      <option value=9>10
+      <option value=9>11
+      <option value=9>12
+      <option value=9>13
+      <option value=9>14
+      <option value=9>15
+      <option value=9>16
+      <option value=9>17
+      <option value=9>18
+      <option value=9>19
+      <option value=9>20
+      <option value=9>21
+      <option value=9>22
+      <option value=9>23
+      <option value=9>24
+      <option value=9>25
+      <option value=9>26
+      <option value=9>27
+      <option value=9>28
+      <option value=9>29
+      <option value=9>30
+      <option value=9>31
+    </select>
+    Tháng:
+    <label for="lstThang"></label>
+    <select name="lstThang" id="lstNgay">
+      <option value=1>01
+      <option value=2>02
+      <option value=3>03
+      <option value=4>04
+      <option value=5>05
+      <option value=6>06
+      <option value=7>07
+      <option value=8>08
+      <option value=9>09
+      <option value=10>10
+      <option value=11>11
+      <option value=12>12
+    </select>
+    Năm:
+    <input name="txtNam" type="text" id ="Nam" size="3" placeholder="Năm sinh" style="width:70px" style="height:10px"/>
+    <br>
+    Giới tính <br>
+    <label for="lstGioiTinh"></label>
+    <select name="lstGioiTinh" id="lstGioiTinh">
+      <option value="1">Nam</option>
+      <option value="2">Nữ</option>
+    </select> 
+    <br>
+    Tên đăng nhập :(*)<br>
+    <label for="txtTenDN"></label>
+    <input name="txtTenDN" type="text" id="txtTenDN" placeholder="Hãy nhập tên đăng nhập" size="20" >
+    <br>
+    Mật khẩu :(*) <br>
+    <label for="txtMatKhau"></label>
+    <input name="txtMatKhau" type="password" id="txtMatKhau" placeholder="Hãy nhập mật khẩu" size="20">
+    <br>
+    Nhập lại mật khẩu:(*)<br>
+    <label for="txtNhapLaiMK"></label>
+    <input type="password" name="txtNhapLaiMK" id="txtNhapLaiMK" placeholder="Nhập lại mật khẩu" />
+    <br>
+    <br>
+  
+      
+  <input type="submit" name="btnDangKy" id="btnDangKy" value="Đăng ký" />
+   <br>Hoặc đăng kí với :<br>
+  <input type="reset" name="o" id="o" value="Đăng kí bằng Gmail" />
+  <img src="image/Google__G__Logo.svg.png" width="150" height="100">
+  <input type="reset" name="o" id="o" value="Đăng kí bằng Facebook" />
+  <img src="image/Facebook-200x200.jpg" width="150" height="100">
+
+ 
+  </div>
+  
+<!-- begin footer!-->
+  <section class="footer bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h5>VỀ CHÚNG TÔI</h5>
+          <ul class="list-menu">
+            <li class="li_menu"><a href="" title="Trang chủ">Trang chủ</a></li>
+            <li class="li_menu"><a href="" title="Giới thiệu">Giới thiệu</a></li>
+            <li class="li_menu"><a href="" title="Sản phẩm">Sản phẩm</a></li>
+            <li class="li_menu"><a href="" title="Tin mới nhất">Tin mới nhất</a></li>
+            <li class="li_menu"><a href="" title="Câu hỏi thường gặp">Câu hỏi thường gặp</a></li>
+            <li class="li_menu"><a href="" title="Tuyển dụng">Tuyển dụng</a></li>
+            <li class="li_menu"><a href="" title="Liên hệ">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>CHÍNH SÁCH BÁN HÀNG</h5>
+          <ul class="list-menu">
+            <li class="li_menu"><a href="" title="Chính sách đổi trả">Chính sách đổi trả</a></li>
+            <li class="li_menu"><a href="" title="Chính sách đổi trả">Chính sách đối tác </a></li>
+            <li class="li_menu"><a href="" title="Chính sách thanh toán">Chính sách thanh toán</a></li>
+            <li class="li_menu"><a href="" title="Chính sách giao hàng">Chính sách giao hàng</a></li>
+          </ul>
+        </div>
+        <div class="col-3">
+          <h5>TƯ VẤN KHÁCH HÀNG</h5>
+          <ul class="list-menu">
+            <li class="li_menu"><a href="" title="mua hàng">Mua hàng 0987654321</a></li>
+            <li class="li_menu"><a href="" title=">Bảo hành">Bảo hành 0987654321</a></li>
+            <li class="li_menu"><a href="" title="Khiếu nại">Khiếu nại 0987654321</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>THIÊN ĐƯỜNG MUA SẮM SPORT</h5>
+          <p class="m-0"></p>
+          <p class="m-0"></p>
+          <p class="m-0"></p>
+          <p class="m-0"></p>
+        </div>
+        <div class="col-md-6">
+          <h5>NHẬN TIN KHUYẾN MÃI</h5>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Nhập email của bạn" aria-label="Nhập email của bạn" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">Đăng ký</span>
+          </div>
+          <div>
+            <span class="box50 border border-danger mr-3">
+              <i class="fa-brands fa-square-facebook"></i>
+            </span>
+            <span class="box50 border border-danger mr-3">
+              <i class="fa-brands fa-twitter"></i>
+            </span>
+            <span class="box50 border border-danger mr-3">
+              <i class="fa-brands fa-google"></i>
+            </span>
+            <span class="box50 border border-danger mr-3">
+              <i class="fa-brands fa-youtube"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 text-end">
+          Trang chủ
+          Giới thiệu
+          Sản phẩm
+          Tin mới nhất
+          Câu hỏi thường gặp</div>
+      </div>
+    </div>
+  </section>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 2,
+        },
+        600: {
+          items: 4,
+        },
+        1000: {
+          items: 5,
+          loop: false,
+          margin: 20
+        }
+      }
+    })
+  })
+  </script>
+  <script src="app.js"></script>
+</body>
+</html>
